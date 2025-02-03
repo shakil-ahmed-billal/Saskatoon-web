@@ -8,8 +8,8 @@ import "swiper/css";
 
 const LatestSection = () => {
     return (
-        <div className="md:max-w-[1400px] mx-auto px-4">
-            <p className="text-3xl font-bold text-center py-14 mt-24">The Latest at SOSDS</p>
+        <div className="md:max-w-[1400px] mx-auto px-4 md:mt-24 mt-52">
+            <p className="text-3xl font-bold text-center py-14 ">The Latest at SOSDS</p>
             <div className="w-full md:w-9/12 mx-auto">
                 <Swiper
                     watchSlidesProgress={true}

@@ -16,7 +16,7 @@ const Footer = () => {
             <img className="h-[100px]" src="/footerImg/footerImage3.png" alt="" />
           </div>
           <div className="col-span-4 ">
-            <div className="flex md:flex-row flex-col gap-5">
+            <div className="flex md:flex-row flex-col gap-5 md:mt-0 mt-5">
               {addressData?.map(data => <AddressCard key={data.id} item={data} />)}
             </div>
             <div className="flex items-center my-5 gap-3">
@@ -30,7 +30,7 @@ const Footer = () => {
       {/* footer part - 2 */}
       <div className="w-full border"></div>
       <div className="w-11/12 md:max-w-[1400px] mx-auto my-10 md:flex justify-between">
-        <ul className="flex flex-wrap gap-3">
+        <ul className="md:flex flex-wrap gap-3">
           <li>Home</li>
           <li>Careers</li>
           <li>Donate</li>
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="w-11/12 md:max-w-[1400px] mx-auto my-10 md:flex justify-between">
         <div className="md:flex gap-10 items-center">
           <p>© Saskatoon Open Door Society 2025 | All Rights Reserved</p>
-          <ul className="flex gap-3">
+          <ul className="md:flex gap-3">
             <li>Terms Use</li>
             <li>Privacy Statement</li>
             <li>Admin Login</li>

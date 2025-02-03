@@ -6,12 +6,12 @@ const DefaultCard = ({ data }) => {
     const { image, title, description } = data
 
     return (
-        <Card className={'h-full'}>
+        <Card className={'h-[415px] w-[300px] flex flex-col justify-between'}>
             <img className="w-full rounded-t-lg object-cover" src={image} alt="" />
             <CardHeader>
                 <CardTitle>{title}</CardTitle>
             </CardHeader>
-            <CardContent className={''}>
+            <CardContent>
                 <CardDescription >{description}</CardDescription>
             </CardContent>
             <CardFooter>

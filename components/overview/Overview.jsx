@@ -1,7 +1,7 @@
 
 const Overview = () => {
     return (
-        <div className="md:max-w-[1400px] w-full mx-auto my-10">
+        <div className="md:max-w-[1400px] w-11/12 mx-auto my-10">
             <p className="text-3xl text-center font-semibold mb-8">2024 Year-End Community Impact Overview</p>
             <div className="gap-5 grid md:grid-cols-5 text-white">
                 <div className="p-8 text-center bg-light-blue">

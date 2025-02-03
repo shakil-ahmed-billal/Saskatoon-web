@@ -1,24 +1,24 @@
 const featureData = [
   {
     id: 1,
-    title: "Limited tickets remaining!",
-    description: "60% of tickets already sold! Grab yours today",
-    image: "/feature/featured1.jpg",
+    title: "Ahmad Majid",
+    description: "Artist / Poet",
+    image: "/sods/sods1.png",
   },
   {
-    id: 2,
-    title: "THREADS 2025 - Call for Submission",
-    description:
-      "The call is now closed, and thank you to all who sent in their work.",
-    image: "/feature/feature2.png"
+    id: 4,
+    title: "Naheda Sahtout",
+    description: "Devoted Volunteer",
+    image: "/sods/sods2.jpg",
   },
   {
     id: 3,
-    title: "Saskatchewan’s First-Ever Newcomer Skills Training Centre",
-    description:
-      "The Saskatoon Open Door Society is launching a unique program to equip newcomers with job-readiness skills, industry training, and employer connections.",
-      image: "/feature/feature3.png"
+    title: "Sabu Andu",
+    description: "Veteran Staff Member",
+    image: "/sods/sods4.jpg",
   },
 ];
 
 export default featureData;
+
+

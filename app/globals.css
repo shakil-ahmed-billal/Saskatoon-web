@@ -73,8 +73,7 @@
 .curved-rectangle-header-1 {
   --c: 90; 
   
-  width: 100%;
-  height: 250px;
+  
   aspect-ratio: 3/2;
   mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(100% + 100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
   clip-path: ellipse(calc(var(--c)*1%) 100% at bottom);
@@ -83,8 +82,14 @@
 .curved-rectangle-header-2 {
   --c: 90; 
   
-  width: 100%;
-  height: 150px;
+  
+  aspect-ratio: 3/2;
+  mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
+  clip-path: ellipse(calc(var(--c)*1%) 100% at top);
+}
+
+.curved-rectangle {
+  --c: 200; 
   aspect-ratio: 3/2;
   mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
   clip-path: ellipse(calc(var(--c)*1%) 100% at top);
